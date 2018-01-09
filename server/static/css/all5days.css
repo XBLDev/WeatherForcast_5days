@@ -1,0 +1,23 @@
+.weatheralldays
+{
+    display: -webkit-flex;   
+    display: flex;
+    flex-flow: column wrap;
+    overflow: hidden;
+    font-family: "Times New Roman", Times, serif;
+}
+    .weatheralldays .alldays
+    {
+        display: flex;
+        flex-flow: row wrap;
+        color: black;
+    }
+    .weatheralldays .alldays .daycell
+    {
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: space-around;
+        flex-grow: 3;
+        text-align: center;
+    }
+

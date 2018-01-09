@@ -1,0 +1,64 @@
+.weather
+{
+    display: -webkit-flex;     
+    display: flex;
+    flex-flow: column wrap;
+    overflow: hidden;
+    font-family: "Times New Roman", Times, serif;
+}
+    .weather .current
+    {
+        display: flex;
+        flex-flow: row wrap;
+    }
+        .weather .current .info
+        {
+            display: flex;
+            flex-flow: column wrap;
+            justify-content: space-around;
+            flex-grow: 2;
+            text-align: center;
+        }
+            .weather .current .info .city
+            {
+                font-size: 26px;
+            }
+            .weather .current .info .citytime
+            {
+                font-size: 26px;
+            }
+            .weather .current .info .temp
+            {
+                font-size: 56px;
+            }
+                .weather .current .info .tempicon
+                {
+                    width: 56px;
+                    height: 56px;                   
+                }
+            .weather .current .info .weatherdescription
+            {
+                font-size: 24px;
+            }
+            .weather .current .info .wind
+            {
+                font-size: 24px;
+            }
+            .weather .current .info .rain
+            {
+                font-size: 24px;
+            }
+            .weather .current .info .cloud
+            {
+                font-size: 24px;
+            }
+        .weather .current .icon
+        {
+            text-align: center;
+            font-size: 24px;
+            flex-grow: 1;
+            flex-flow: column wrap;
+            justify-content: space-around;
+            background-color: lightseagreen;
+            color: white;            
+        }
